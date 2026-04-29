@@ -1,9 +1,9 @@
 # Heart Disease Exploratory Data Analysis
 
 ## Overview
-This project explores clinical risk factors associated with heart disease using exploratory data analysis (EDA). The goal is to identify meaningful patterns between patient characteristics and heart disease outcomes, and highlight which variables may be most relevant for risk assessment.
+This project explores clinical risk factors associated with heart disease using exploratory data analysis. The goal is to identify patterns between patient characteristics and heart disease outcomes and highlight which variables may be most relevant for assessing risk.
 
-Understanding these relationships can help support early detection and inform clinical decision-making.
+This analysis focuses on understanding how different clinical indicators relate to heart disease and how these relationships can provide insight into early detection.
 
 ---
 
@@ -26,18 +26,18 @@ Understanding these relationships can help support early detection and inform cl
 ---
 
 ## Key Questions
-- Which variables are most strongly associated with heart disease?  
-- How do exercise-related metrics impact outcomes?  
-- What clinical indicators show the strongest relationships?  
-- Are there clear patterns that separate high-risk vs low-risk patients?  
+- Which variables are most associated with heart disease?  
+- How do exercise-related features impact outcomes?  
+- Which clinical indicators show the strongest relationships?  
+- Are there patterns that distinguish higher risk patients from lower risk patients?  
 
 ---
 
 ## Key Insights
-- ST Slope is one of the strongest predictors of heart disease, with flat and downward slopes associated with higher risk  
-- Oldpeak shows the strongest positive correlation with heart disease  
-- Max heart rate is negatively correlated with heart disease outcomes  
-- Exercise-induced angina is associated with increased likelihood of heart disease  
+- ST Slope shows a strong relationship with heart disease, with flat and downward slopes linked to higher risk  
+- Oldpeak has the strongest positive correlation with heart disease  
+- Max heart rate is negatively associated with heart disease outcomes  
+- Exercise-induced angina is associated with a higher likelihood of heart disease  
 - Age shows a moderate positive relationship with heart disease risk  
 
 ---
@@ -58,25 +58,25 @@ Understanding these relationships can help support early detection and inform cl
 
 ### Oldpeak vs Heart Disease
 ![Oldpeak](Images/oldpeak_vs_heart_disease.png)  
-*Figure 3: Higher ST depression (oldpeak) is associated with increased heart disease risk.*
+*Figure 3: Higher ST depression values are associated with increased heart disease risk.*
 
 ---
 
 ### Max Heart Rate vs Heart Disease
 ![MaxHR](Images/maxhr_vs_heart_disease.png)  
-*Figure 4: Lower maximum heart rate is associated with higher likelihood of heart disease.*
+*Figure 4: Lower maximum heart rate is associated with a higher likelihood of heart disease.*
 
 ---
 
 ## Methods Used
-- Exploratory Data Analysis (EDA)  
+- Exploratory Data Analysis  
 - Data Visualization  
 - Correlation Analysis  
 - Categorical Feature Analysis  
 
 ---
 
-## Tools & Technologies
+## Tools and Technologies
 - Python  
 - Pandas  
 - NumPy  
@@ -102,7 +102,7 @@ Understanding these relationships can help support early detection and inform cl
 ---
 
 ## Data Source
-- Fedesoriano. (2021). *Heart Failure Prediction Dataset*.  
+- Fedesoriano. (2021). *Heart Failure Prediction Dataset*  
   Available at: https://www.kaggle.com/fedesoriano/heart-failure-prediction  
 
 ---
@@ -111,7 +111,7 @@ Understanding these relationships can help support early detection and inform cl
 - Apply machine learning models for prediction  
 - Perform feature importance analysis  
 - Explore class imbalance handling techniques  
-- Test model performance across different algorithms  
+- Evaluate model performance across different algorithms  
 
 ---
 
